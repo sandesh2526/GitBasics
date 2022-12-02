@@ -4,3 +4,5 @@
 # Commiting the changes : git commit -m "Your Message for Commit"
 # To create new branch : git branch newBranchName
 # Switiching to another branch : git checkout branchName (Default Branch is master)
+# To merge changes to branch from a different branch : git merge BranchNameToBeMergedWith
+# This is new Line in Master
