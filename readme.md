@@ -1,11 +1,11 @@
 # Git Basic Commands : 
 
-### To initialize any git repo : 
+### To initialize any directory as git repo : 
 ### ``` git init ```
 ### Add the items in repo for staging : 
 ### ``` git add || git add . ``` 
-### (adds all new files)
-### For current status of your repo, use : 
+### ('.' adds all new files)
+### For current status of your repo : 
 ### ``` git status ```
 ### Commiting the changes : 
 ### ``` git commit -m "Your Message for Commit" ```
@@ -21,4 +21,4 @@
 ### ``` git push NameOfRemote(origin) TheBranchYouWantToPush(master) || git push -u origin master ``` 
 ### (If you want to save this setting we use "-u" so that next time we only have to use "git push" to commit to origin master)
 ### To pull changes from remote repo : 
-### ``` git pull remoteName(origin) BranchToBePulled (master || newBranch) ```
+### ``` git pull NameOfRemote(origin) BranchToBePulled (master || newBranch) ```
