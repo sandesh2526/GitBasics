@@ -11,3 +11,4 @@
 ### To add a remote to your newly created repository on github : ``` git remote add ShortNameForTheRemoteLikeOrigin URLOfRepo ```
 ### To push to the remote repo we use : ``` git push NameOfRemote(origin) TheBranchYouWantToPush(master) || git push -u origin master ``` 
 ### (If you want to save this setting we use "-u" so that next time we only have to use "git push" to commit to origin master)
+### To pull changes from remote repo : ``` git pull remoteName(origin) BranchToBePulled(master || newBranch) ```
