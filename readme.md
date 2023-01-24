@@ -9,12 +9,6 @@
 ### ``` git status ```
 ### Commiting the changes : 
 ### ``` git commit -m "Your Message for Commit" ```
-### To create new branch : 
-### ``` git branch newBranchName ```
-### Switiching to another branch :
-###  ``` git checkout branchName ``` (Default Branch is master)
-### To merge changes to branch from a different branch : 
-### ``` git merge BranchNameToBeMergedWith ```
 ### To add a remote to your newly created repository on github : 
 ### ``` git remote add ShortNameForTheRemoteLikeOrigin URLOfRepo ```
 ### To push to the remote repo we use : 
@@ -22,3 +16,13 @@
 ### (If you want to save this setting we use "-u" so that next time we only have to use "git push" to commit to origin master)
 ### To pull changes from remote repo : 
 ### ``` git pull NameOfRemote(origin) BranchToBePulled (master || newBranch) ```
+### To create new branch : 
+### ``` git branch newBranchName ```
+### Switiching to another branch :
+###  ``` git checkout branchName ``` (Default Branch is master)
+### To merge changes to branch from a different branch : 
+### ``` git merge BranchNameToBeMergedWith ```
+### To view all branches 
+### ``` git branch -a ```
+### To Delete a Git branch : 
+### ``` git branch --delete BranchToBeDeleted ```
