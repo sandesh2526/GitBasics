@@ -24,5 +24,7 @@
 ### ``` git merge BranchNameToBeMergedWith ```
 ### To view all branches 
 ### ``` git branch -a ```
-### To Delete a Git branch : 
+### To Delete a Git branch 
 ### ``` git branch --delete BranchToBeDeleted ```
+### To rename the branch
+### ```git branch -m new-branch-name```
