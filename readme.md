@@ -28,3 +28,7 @@
 ### ``` git branch --delete BranchToBeDeleted ```
 ### To rename the branch
 ### ```git branch -m new-branch-name```
+### Check all the previous commits
+### ```git log```
+### Check a particular commit
+### ```git show CommitId(2f385e9be48dab7d65e0b7d66c958e9806b66c15)```
